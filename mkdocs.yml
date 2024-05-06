@@ -3,4 +3,5 @@ nav:
   - Home: index.md
   - About: about.md
   - Example: example.md
+site_url: https://attendon.github.io/docs/site/  
 theme: readthedocs
