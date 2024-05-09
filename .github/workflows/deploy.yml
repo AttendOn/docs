@@ -7,18 +7,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: pip install mkdocs-material
-        shell: bash
+      - uses : actions/checkout@v3
+      - run : pip install mkdocs-material
       - run : mkdocs build # build the site
-        shell: bash
       - run : git config user.name github-actions
-        shell: bash
       - run : git config user.email github-actions@github.com
-        shell: bash
-      - run : git add docs -f
-        shell: bash
+      - run : git add docs/
       - run : git commit -m "Deploy :rocket:"
-        shell: bash
-      - run : git push origin HEAD:gh-pages --force
-        shell: bash
+      - run : git checkout -b "gh-pages"
+      - run : git push origin HEAD:gh-pages
