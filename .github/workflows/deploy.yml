@@ -14,4 +14,3 @@ jobs:
       - run : git config user.email github-actions@github.com
       - run : git add site/
       - run : git commit -m "Deploy :rocket:"
-      - run : git push origin HEAD:gh-pages --force
