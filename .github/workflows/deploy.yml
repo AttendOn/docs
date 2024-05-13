@@ -12,6 +12,7 @@ jobs:
       - run : mkdocs build # build the site
       - run : git config user.name github-actions
       - run : git config user.email github-actions@github.com
+      - run: curl https://google.com
       - uses: actions/setup-git@v3
         with:
           git_protocol: https
