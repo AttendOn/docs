@@ -15,7 +15,6 @@ jobs:
       - uses: actions/setup-git@v3
         with:
           git_protocol: https
-          git_token: ${{ secrets.GITHUB_TOKEN }}
       - run : git add site/
       - run : git commit -m "Deploy :rocket:"
       - run : git push origin HEAD:gh-pages
