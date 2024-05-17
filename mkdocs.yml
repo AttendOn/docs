@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: My Site
 theme: 
   name: material
   features:
@@ -15,3 +15,7 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.footer
+nav:
+    Home: index.md
+    Example: example.md
+    About: about.md  
