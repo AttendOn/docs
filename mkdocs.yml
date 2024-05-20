@@ -1,4 +1,4 @@
-site_name: My Site
+site_name: AttendOn
 theme: 
   name: material
   features:
@@ -9,13 +9,28 @@ theme:
     - header.autohide
     - search.suggest
     - search.highlight
-    - search.share
+    - toc.integrate
     - navigation.indexes
     - navigation.tabs
-    - navigation.top
-    - navigation.tracking
-    - navigation.footer
-nav:
-    Home: index.md
-    Example: example.md
-    About: about.md  
+  language: en 
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: blue 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+  nav:
+    - Home: index.md
+    - Example: example.md
+    - About: about.md 
+  logo:
+    file: img/logo.svg
+    height: 100
+  favicon: img/favicon.png
