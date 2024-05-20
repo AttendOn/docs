@@ -1,1 +1,0 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Welcome to AttendOn Docs","text":"<p>This is the AttendOn website.</p>"},{"location":"about/","title":"About Us","text":"<p>about us</p>"},{"location":"example/","title":"Example","text":"<p>Attend on Example Page.</p>"}]}

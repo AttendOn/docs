@@ -5,7 +5,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
-    - anounce.dismiss
+    - announce.dismiss
     - header.autohide
     - search.suggest
     - search.highlight
