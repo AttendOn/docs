@@ -30,5 +30,7 @@ theme:
     - Home: index.md
     - Example: example.md
     - About: about.md 
-  logo: img/AttendOn.png
+  logo:
+    file: img/AttendOn.png
+    height: 100
   favicon: img/AttendOn.png
