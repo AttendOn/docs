@@ -31,7 +31,7 @@ theme:
     - Example: example.md
     - About: about.md 
   logo:
-    file: img/AttendOn.png
+    file: img/logo.png
     height: 150
     width: 150
-  favicon: img/AttendOn.png
+  favicon: img/logo.png
